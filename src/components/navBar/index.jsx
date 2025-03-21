@@ -13,10 +13,10 @@ const NavBar = () => {
 
   const navItem = [
     { name: "Home", link: "/" },
-    { name: "Services", link: "/services" },
-    { name: "About me", link: "/about" },
-    { name: "Portfolio", link: "/portfolio" },
-    { name: "Contact me", link: "/contact" },
+    { name: "Services", link: "/" },
+    { name: "About me", link: "/" },
+    { name: "Portfolio", link: "/" },
+    { name: "Contact me", link: "/" },
   ];
 
   return (
