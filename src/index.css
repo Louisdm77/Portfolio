@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.hire {
+  background-image: linear-gradient(
+    #e46400,
+    #fd6f00
+  ); /* Gradient from #e46400 to #fd6f00 */
+}
+.logo {
+  color: #e46400;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
