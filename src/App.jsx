@@ -1,16 +1,16 @@
 import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/navBar";
-import MyInfo from "./components/myInfo";
+import Me from "./components/me";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <Router>
       {" "}
-      <div className="md:hidden">
+      <div className="">
         <NavBar />
-        <MyInfo/>
+        <Me/>
       </div>
     </Router>
   );
