@@ -33,11 +33,11 @@ const NavBar = () => {
           />
         </div>
         <div
-          className={`w-full p-2 mt-4  z-50 absolute left-0 ${
+          className={`w-full p-6  mt-4  z-50 absolute left-0 ${
             !showNav ? "hidden" : "block"
           }`}
         >
-          <ul className="block lg:hidden text-white bg-black ">
+          <ul className="block lg:hidden text-white bg-black animate__animated animate__slideInDown">
             {navItem.map((item, index) => (
               <li key={index} className="p-2 hover:text-black hover:bg-white">
                 <Link to={item.link}>{item.name}</Link>
