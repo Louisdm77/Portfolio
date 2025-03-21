@@ -47,7 +47,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="logo  ml-22 text-2xl font-bold lg:text-4xl lg:ml-12">
+      <div className="logo  ml-20 text-2xl font-bold lg:text-4xl lg:ml-12">
         LOGO
       </div>
 
