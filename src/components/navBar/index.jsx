@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Button from "../button";
 
 const NavBar = () => {
-  const [showNav, setShowNav] = useState(false); // Boolean false
+  const [showNav, setShowNav] = useState(false);
 
   const handleNavBarShow = () => {
     setShowNav(!showNav);
@@ -19,7 +20,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="p-4 flex justify-between items-center relative">
+    <div className="p-4 flex justify-between items-center relative ">
       <div className="">
         <div className="lg:hidden text-xl">
           <GiHamburgerMenu
@@ -32,11 +33,11 @@ const NavBar = () => {
           />
         </div>
         <div
-          className={`w-full p-2 mt-4 absolute left-0 ${
+          className={`w-full p-2 mt-4  z-50 absolute left-0 ${
             !showNav ? "hidden" : "block"
           }`}
         >
-          <ul className="block lg:hidden bg-gray-300 text-black">
+          <ul className="block lg:hidden text-white bg-black ">
             {navItem.map((item, index) => (
               <li key={index} className="p-2 hover:text-black hover:bg-white">
                 <Link to={item.link}>{item.name}</Link>
@@ -56,7 +57,7 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <button className="hire py-1 px-2 rounded ">Hire Me</button>
+        <Button />
       </div>
     </div>
   );
