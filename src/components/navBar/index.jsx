@@ -33,7 +33,7 @@ const NavBar = () => {
           />
         </div>
         <div
-          className={`w-full p-6  mt-4  z-50 absolute left-0 ${
+          className={`w-full p-3  mt-4  z-50 absolute left-0 ${
             !showNav ? "hidden" : "block"
           }`}
         >
