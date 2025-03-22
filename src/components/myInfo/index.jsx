@@ -72,11 +72,11 @@ const MyInfo = () => {
         <ul className="flex justify-between items-center   ">
           {history.map((item, index) => {
             return (
-              <li className={` p-2`}>
+              <li className={``}>
                 <p className="role text-lg font-extrabold text-start lg:text-2xl">
                   {item.number}
                 </p>
-                <p className="lg:text-2xl">{item.achievement}</p>
+                <p className="lg:text-2xl text-sm">{item.achievement}</p>
               </li>
             );
           })}
