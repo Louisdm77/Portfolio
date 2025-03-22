@@ -15,9 +15,23 @@ const MyInfo = () => {
     { icon: <FaFacebookF />, link: "/" },
   ];
 
+  const history = [
+    {
+      number: "2+",
+      achievement: "Experience",
+    },
+    {
+      number: "20+",
+      achievement: "Projects Done",
+    },
+    {
+      number: "20+",
+      achievement: "Happy Clients",
+    },
+  ];
+
   return (
     <div className="w-full mt-4 z-0 lg:text-start text-center">
-      {/* Name and Intro */}
       <div className="text-gray-400">
         <h3 className="text-lg mb-4 animate__animated animate__slideInLeft lg:text-2xl">
           Hi, I am
@@ -34,7 +48,6 @@ const MyInfo = () => {
         </h3>
       </div>
 
-      {/* Social Media Icons */}
       <div className="w-full max-w-xs mx-auto mt-6 text-gray-300 lg:max-w-[20%] lg:ml-0">
         <ul className="flex justify-center gap-4 text-xl lg:justify-start">
           {socialMedia.map((media, index) => (
@@ -48,12 +61,26 @@ const MyInfo = () => {
         </ul>
       </div>
 
-      {/* Buttons */}
       <div className="w-full max-w-sm mx-auto mt-8 flex flex-col gap-4 lg:flex-row lg:max-w-md lg:ml-0 lg:gap-6">
         <Button />
         <button className="border-2 border-gray-300 py-2 px-6  rounded hover:bg-gray-700 transition-colors lg:py-4 lg:px-16">
           Download CV
         </button>
+      </div>
+
+      <div className="bg-gray-900 rounded-xl lg:max-w-[70%] p-4 mt-4">
+        <ul className="flex justify-between items-center   ">
+          {history.map((item, index) => {
+            return (
+              <li className={` p-2`}>
+                <p className="role text-lg font-extrabold text-start lg:text-2xl">
+                  {item.number}
+                </p>
+                <p className="lg:text-2xl">{item.achievement}</p>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
   );
