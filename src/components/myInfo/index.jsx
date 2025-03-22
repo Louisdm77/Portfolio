@@ -68,7 +68,7 @@ const MyInfo = () => {
         </button>
       </div>
 
-      <div className="bg-gray-900 rounded-xl lg:max-w-[70%] p-4 mt-4">
+      <div className="bg-gray-900 rounded-xl lg:max-w-[70%] p-4 mt-6">
         <ul className="flex justify-between items-center   ">
           {history.map((item, index) => {
             return (

@@ -54,7 +54,7 @@ const NavBar = () => {
       <div className="flex items-center text-gray-300 font-semibold text-2xl">
         <ul className="hidden lg:flex items-center">
           {navItem.map((item, index) => (
-            <li key={index} className="ml-10 hover:text-orange-400]">
+            <li key={index} className="ml-10 hover:text-orange-400">
               <Link to={item.link}>{item.name}</Link>
             </li>
           ))}
