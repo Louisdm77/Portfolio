@@ -16,7 +16,7 @@ const AboutMe = () => {
           <img src={MyImage} alt="my photo" className="w-full" />
         </div>{" "}
         <div className="w-full lg:w-[35%] text-gray-400 mt-4 p-6">
-          <p className="lg:text-2xl">
+          <p className="lg:text-xl">
             I’m a frontend developer passionate about crafting engaging digital
             experiences. I specialize in blending design and functionality to
             create intuitive, responsive applications that enhance user
