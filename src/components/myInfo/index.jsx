@@ -41,7 +41,7 @@ const MyInfo = () => {
         </h2>
       </div>
 
-      {/* Role */}
+
       <div>
         <h3 className="text-3xl font-bold animate__animated animate__zoomIn mt-4 lg:text-7xl role">
           FrontEnd Developer

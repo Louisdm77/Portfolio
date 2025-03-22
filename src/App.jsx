@@ -4,6 +4,7 @@ import NavBar from "./components/navBar";
 import Me from "./components/me";
 import Services from "./components/services";
 import { BrowserRouter as Router } from "react-router-dom";
+import AboutMe from "./components/aboutMe";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <NavBar />
         <Me />
         <Services />
+        <AboutMe/>
       </div>
     </Router>
   );
