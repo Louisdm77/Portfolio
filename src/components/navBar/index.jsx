@@ -47,11 +47,11 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="logo  ml-20 text-2xl font-bold lg:text-4xl lg:ml-12">
+      <div className="logo text-center flex-1 lg:flex-none text-2xl font-bold lg:text-4xl lg:ml-12">
         LOGO
       </div>
 
-      <div className="flex items-center text-gray-300 font-semibold text-2xl">
+      <div className="hidden lg:flex items-center text-gray-300 font-semibold text-2xl">
         <ul className="hidden lg:flex items-center">
           {navItem.map((item, index) => (
             <li key={index} className="ml-10 hover:text-orange-400">
