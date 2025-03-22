@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Button from "../button";
+import logo from "../../assets/images/logo.png";
 
 const NavBar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -47,8 +48,8 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="logo text-center flex-1 lg:flex-none text-2xl font-bold lg:text-4xl lg:ml-12">
-        LOGO
+      <div className="logo text-center flex-1 lg:flex-none text-2xl lg:h-20 lg:w-30 font-bold lg:text-4xl lg:ml-12">
+        <img src={logo} alt="logo" className="w-full h-full" />
       </div>
 
       <div className="hidden lg:flex items-center text-gray-300 font-semibold text-2xl">

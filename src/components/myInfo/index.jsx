@@ -41,7 +41,6 @@ const MyInfo = () => {
         </h2>
       </div>
 
-
       <div>
         <h3 className="text-3xl font-bold animate__animated animate__zoomIn mt-4 lg:text-7xl role">
           FrontEnd Developer
@@ -63,7 +62,7 @@ const MyInfo = () => {
 
       <div className="w-full max-w-sm mx-auto mt-8 flex flex-col gap-4 lg:flex-row lg:max-w-md lg:ml-0 lg:gap-6">
         <Button />
-        <button className="border-2 border-gray-300 py-2 px-6  rounded hover:bg-gray-700 transition-colors lg:py-4 lg:px-16">
+        <button className="border-2 border-gray-300 py-2 px-6 cursor-pointer rounded hover:bg-gray-700 transition-colors lg:py-4 lg:px-16">
           Download CV
         </button>
       </div>
