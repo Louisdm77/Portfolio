@@ -6,13 +6,13 @@ import { FaReact } from "react-icons/fa";
 import tailwind from "../../assets/images/tailwind.png";
 import firebase from "../../assets/images/firebase.svg";
 import { FaHtml5 } from "react-icons/fa";
+
 const SkillsRating = () => {
   return (
     <div className="m-auto">
-        <h2 className="text-center text-3xl mb-4 font-extrabold">Technologies</h2>
+      <h2 className="text-center text-3xl mb-4 font-extrabold">Technologies</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 p-4 items-center">
-        {" "}
-        <div className="w-50 block text-center  ">
+        <div className="w-50 block text-center">
           <GaugeChart
             id="gauge-chart2"
             nrOfLevels={20}
@@ -22,7 +22,7 @@ const SkillsRating = () => {
           <FaHtml5 className="text-6xl m-auto" />
           <p className="text-2xl font-bold mt-4 rolee">Html</p>
         </div>
-        <div className="w-50 block text-center  ">
+        <div className="w-50 block text-center">
           <GaugeChart
             id="gauge-chart2"
             nrOfLevels={20}
@@ -32,7 +32,7 @@ const SkillsRating = () => {
           <FaCss3Alt className="text-6xl m-auto" />
           <p className="text-2xl font-bold mt-4 rolee">Css</p>
         </div>
-        <div className="w-50 block text-center ">
+        <div className="w-50 block text-center">
           <GaugeChart
             id="gauge-chart2"
             nrOfLevels={20}
@@ -42,7 +42,7 @@ const SkillsRating = () => {
           <img src={tailwind} alt="" className="w-30 h-15 m-auto" />
           <p className="text-2xl font-bold mt-4 rolee">Tailwind Css</p>
         </div>
-        <div className="w-50 block text-center ">
+        <div className="w-50 block text-center">
           <GaugeChart
             id="gauge-chart2"
             nrOfLevels={20}
@@ -52,7 +52,7 @@ const SkillsRating = () => {
           <IoLogoJavascript className="text-6xl m-auto" />
           <p className="text-2xl font-bold mt-4 rolee">Javascript</p>
         </div>
-        <div className="w-50 block text-center ">
+        <div className="w-50 block text-center">
           <GaugeChart
             id="gauge-chart2"
             nrOfLevels={20}
@@ -62,7 +62,7 @@ const SkillsRating = () => {
           <FaReact className="text-6xl m-auto" />
           <p className="text-2xl font-bold mt-4 rolee">React JS</p>
         </div>
-        <div className="w-50 block text-center ">
+        <div className="w-50 block text-center">
           <GaugeChart
             id="gauge-chart2"
             nrOfLevels={20}
