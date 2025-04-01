@@ -8,7 +8,7 @@ import firebase from "../../assets/images/firebase.svg";
 import { FaHtml5 } from "react-icons/fa";
 const SkillsRating = () => {
   return (
-    <div>
+    <div className="m-auto">
         <h2 className="text-center text-3xl mb-4 font-extrabold">Technologies</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 p-4 items-center">
         {" "}
