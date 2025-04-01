@@ -5,6 +5,7 @@ import Me from "./components/me";
 import Services from "./components/services";
 import { BrowserRouter as Router } from "react-router-dom";
 import AboutMe from "./components/aboutMe";
+import SkillsRating from "./components/skillsRating";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <NavBar />
         <Me />
         <Services />
-        <AboutMe/>
+        <AboutMe />
+        <SkillsRating />
       </div>
     </Router>
   );
