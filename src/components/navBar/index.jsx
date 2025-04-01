@@ -49,7 +49,11 @@ const NavBar = () => {
       </div>
 
       <div className="logo flex justify-center flex-1 lg:flex-none lg:ml-12 lg:justify-start">
-        <img src={logo} alt="logo" className="lg:h-20 lg:w-30 w-14 h-14" />
+        <img
+          src={logo}
+          alt="logo"
+          className="w-16 h-16 object-contain lg:h-20 lg:w-32"
+        />
       </div>
 
       <div className="hidden lg:flex items-center text-gray-300 font-semibold text-2xl">
